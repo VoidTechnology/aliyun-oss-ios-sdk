@@ -23,6 +23,7 @@ let package = Package(
             dependencies: [],
             path: "AliyunOSSSDK",
             exclude: ["OSSLog.swift"],
+            publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("."),
                 .headerSearchPath("OSSFileLog"),
